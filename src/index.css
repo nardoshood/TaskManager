@@ -2,16 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   background-color: #1b1d31;
 }
-h1{
+h1 {
   color: #e8eaf6;
   font-weight: bold;
-  font-family: Space Mono,sans-serif;
+  font-family: Space Mono, sans-serif;
   text-shadow: 0 0 8px #d47d3c;
-  font-style: uppercase; 
+  font-style: uppercase;
   font-size: 56px;
   margin-bottom: 24px;
 }
+.todo-list::-webkit-scrollbar {
+  display: none;
+}
 
+.todo-list {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+* {
+  transition: 0.1s;
+}

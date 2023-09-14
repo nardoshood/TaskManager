@@ -1,3 +1,5 @@
+import { AddTask } from "./components/AddTask";
+
 // import TaskItem from './components/'
 function App() {
   return (
@@ -5,7 +7,9 @@ function App() {
       <div>
         <h1> Task Manager.</h1>
       </div>
-      <div>{/* <TaskItem/> */}</div>
+      <div>
+        <AddTask />
+      </div>
     </div>
   );
 }
