@@ -1,4 +1,4 @@
-import { useTasks } from "../states/taskContext";
+import { useTasks } from "../states/TaskContext";
 import { useSearchParams } from "react-router-dom";
 
 const Tasks = () => {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useTasks } from "../store/TaskContext";
+import { useTasks } from "../states/TaskContext";
 
 const AddTask = () => {
   const { handleAddTask } = useTasks();

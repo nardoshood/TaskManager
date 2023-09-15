@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { TASKContext } from "./taskContext";
+import { TASKContext } from "./TaskContext";
 
 const tasksContext = createContext<TASKContext | null>(null);
 
